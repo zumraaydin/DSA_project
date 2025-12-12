@@ -32,13 +32,13 @@ public class PatientList {
 
 
         Node trv =head;
-        while(trv.next!=null){
-            if(trv.next.data.id==id){
-                trv.next=trv.next.next;
+        while(trv.next!=null) {
+            if (trv.next.data.id == id) {
+                trv.next = trv.next.next;
             }
-            trv=trv.next;
-        return;
+            trv = trv.next;
         }
+
     }
 
 

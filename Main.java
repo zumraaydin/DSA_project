@@ -10,11 +10,11 @@ public class Main {
         list.addPatient(new Patient("arda", 23 , 230441054, 9));
         list.addPatient(new Patient("sena ",  22, 230444014, 7));
         System.out.println("line");
-        PatientList line = null;
-        line.printList();
-        line.removePatient(3);
-        line.findPatient(2);
-        line.printList();
+
+        list.printList();
+        list.removePatient(3);
+        list.findPatient(2);
+        list.printList();
 
 
         }
